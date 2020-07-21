@@ -1,0 +1,22 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="srt_wilayah.province_list">
+      <field name="name">Provinsi</field>
+      <field name="model">srt_wilayah.province</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="prov_id"/>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="srt_wilayah.action_province_window">
+      <field name="name">Provinsi</field>
+      <field name="res_model">srt_wilayah.province</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+  </data>
+</odoo>

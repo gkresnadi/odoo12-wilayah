@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_srt_wilayah_province,srt_wilayah.province,model_srt_wilayah_province,,1,1,1,0
+access_srt_wilayah_region,srt_wilayah.region,model_srt_wilayah_region,,1,1,1,0
+access_srt_wilayah_district,srt_wilayah.district,model_srt_wilayah_district,,1,1,1,0
+access_srt_wilayah_village,srt_wilayah.village,model_srt_wilayah_village,,1,1,1,0

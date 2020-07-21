@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="srt_wilayah.list">
+      <field name="name">srt_wilayah list</field>
+      <field name="model">srt_wilayah.srt_wilayah</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="srt_wilayah.action_window">
+      <field name="name">srt_wilayah window</field>
+      <field name="res_model">srt_wilayah.srt_wilayah</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="srt_wilayah.action_server">
+      <field name="name">srt_wilayah server</field>
+      <field name="model_id" ref="model_srt_wilayah_srt_wilayah"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="srt_wilayah" id="srt_wilayah.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="srt_wilayah.menu_1" parent="srt_wilayah.menu_root"/>
+    <menuitem name="Menu 2" id="srt_wilayah.menu_2" parent="srt_wilayah.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="srt_wilayah.menu_1_list" parent="srt_wilayah.menu_1"
+              action="srt_wilayah.action_window"/>
+    <menuitem name="Server to list" id="srt_wilayah" parent="srt_wilayah.menu_2"
+              action="srt_wilayah.action_server"/>
+    -->
+  </data>
+</odoo>

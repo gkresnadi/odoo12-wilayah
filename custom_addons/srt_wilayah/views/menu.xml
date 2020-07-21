@@ -1,0 +1,26 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+    <menuitem name="Wilayah" id="srt_wilayah.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Provinsi" id="srt_wilayah.menu_province"
+              action="srt_wilayah.action_province_window"
+              parent="srt_wilayah.menu_root"/>
+    <menuitem name="Kota/Kabupaten" id="srt_wilayah.menu_region"
+              action="srt_wilayah.action_region_window"
+              parent="srt_wilayah.menu_root"/>
+    <menuitem name="Kecamatan" id="srt_wilayah.menu_district"
+              action="srt_wilayah.action_district_window"
+              parent="srt_wilayah.menu_root"/>
+    <menuitem name="Kelurahan" id="srt_wilayah.menu_village"
+              action="srt_wilayah.action_village_window"
+              parent="srt_wilayah.menu_root"/>
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="srt_wilayah.menu_1_list" parent="srt_wilayah.menu_1"
+              action="srt_wilayah.action_window"/>
+    <menuitem name="Server to list" id="srt_wilayah" parent="srt_wilayah.menu_2"
+              action="srt_wilayah.action_server"/>
+    -->
+  </data>
+</odoo>
