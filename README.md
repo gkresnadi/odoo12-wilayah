@@ -5,4 +5,4 @@ Requirement:
 - odoo ver. 12
 
 Reference:
-Badan Pusat Statistik (http://mfdonline.bps.go.id/)](http://mfdonline.bps.go.id/) pada **11 Januari 2018**.
+Badan Pusat Statistik (http://mfdonline.bps.go.id/)](http://mfdonline.bps.go.id/) at **11 January 2018**.
